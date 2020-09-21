@@ -25,8 +25,8 @@
         <testcontainers.version>1.14.3</testcontainers.version>
         <kafka-clients.version>2.6.0</kafka-clients.version>
         <!-- project versions -->
-        <cafe-domain.version>3.0.0</cafe-domain.version>
-        <cafe-test-utils.version>3.0.0</cafe-test-utils.version>
+        <coffeeshop-domain.version>3.0.0</coffeeshop-domain.version>
+        <coffeeshop-testutils.version>3.0.0</coffeeshop-testutils.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -41,13 +41,13 @@
             <dependency>
                 <groupId>io.quarkuscoffeeshop</groupId>
                 <artifactId>quarkus-coffeeshop-domain</artifactId>
-                <version>${cafe-domain.version}</version>
+                <version>${coffeeshop-domain.version}</version>
             </dependency>
             <!-- Application Testing -->
             <dependency>
                 <groupId>io.quarkuscoffeeshop</groupId>
-                <artifactId>quarkus-coffeeshop-test-utils</artifactId>
-                <version>${cafe-test-utils.version}</version>
+                <artifactId>quarkus-coffeeshop-testutils</artifactId>
+                <version>${coffeeshop-testutils.version}</version>
             </dependency>
             <!-- Testing -->
             <dependency>

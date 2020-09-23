@@ -25,8 +25,8 @@
         <testcontainers.version>1.14.3</testcontainers.version>
         <kafka-clients.version>2.6.0</kafka-clients.version>
         <!-- project versions -->
-        <coffeeshop-domain.version>3.0.0</coffeeshop-domain.version>
-        <coffeeshop-testutils.version>3.0.0</coffeeshop-testutils.version>
+        <coffeeshop-domain.version>3.0.0-SNAPSHOT</coffeeshop-domain.version>
+        <coffeeshop-testutils.version>3.0.0-SNAPSHOT</coffeeshop-testutils.version>
     </properties>
     <dependencyManagement>
         <dependencies>

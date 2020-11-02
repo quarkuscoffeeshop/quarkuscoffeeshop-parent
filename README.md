@@ -10,3 +10,10 @@ This project is the parent project for the Quarkuscoffeeshop Demo project.  It c
 * quarkuscoffeeshop-testutils
 * quarkuscoffeeshop-web
 
+## Building
+
+This pom can be installed to Maven Central with the following commands:
+
+```shell script
+mvn deploy -P release
+```

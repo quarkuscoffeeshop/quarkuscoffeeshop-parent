@@ -15,5 +15,8 @@ This project is the parent project for the Quarkuscoffeeshop Demo project.  It c
 This pom can be installed to Maven Central with the following commands:
 
 ```shell script
-mvn deploy -P release
+export GPG_TTY=$(tty)
+mvn deploy -P sonatype
 ```
+
+_NOTE_: 

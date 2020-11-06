@@ -4,7 +4,7 @@
 
     <groupId>io.quarkuscoffeeshop</groupId>
     <artifactId>quarkuscoffeeshop-parent</artifactId>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
     <packaging>pom</packaging>
 
     <name>Quarkuscoffeeshop: Quarkus, Kafka, Kubernetes, and Coffee</name>
@@ -84,7 +84,7 @@
         <kafka-clients.version>2.6.0</kafka-clients.version>
         <!-- project versions -->
         <coffeeshop-domain.version>4.0.0</coffeeshop-domain.version>
-        <coffeeshop-testutils.version>3.2.0</coffeeshop-testutils.version>
+        <coffeeshop-testutils.version>4.0.0</coffeeshop-testutils.version>
     </properties>
     <dependencyManagement>
         <dependencies>

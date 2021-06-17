@@ -1,3 +1,9 @@
+***NOTE***: This repository is deprecated
+
+# Docs
+Please see the Github Pages Site for complete documentation: [quarkuscoffeeshop.github.io](https://quarkuscoffeeshop.github.io)
+
+
 # Parent
 
 This project is the parent project for the Quarkuscoffeeshop Demo project.  It contains dependencies for the child projects:
